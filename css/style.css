@@ -22,11 +22,52 @@ body{
 }
 
 .header{
+    position: relative;
     height: 95vh;
     background-image: linear-gradient(
-        to right, rgba(183, 28, 28, 0.342),rgba(239, 83, 80, 0.301)
+        to right, rgba(183, 28, 28, 0.5),rgba(239, 83, 80, 0.507)
        ),
     url(../img/hero2.jpg);
     background-position: top ;
     clip-path: polygon(0 0,100% 0,100% 80%,0 100%)
+}
+
+.logo-box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border: 2px white solid;
+}
+
+.logo{
+    height: 60px;
+}
+
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 5px solid #fff;
+    padding:10px 30px;
+    
+}
+
+.heading-primary{
+    text-transform: uppercase; 
+    color: #fff;
+}
+
+.heading-primary-main{
+    display:block;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing:30px;
+}
+.heading-primary-sub{
+    display: block;
+    font-size: 30px;
+    font-weight: 00;
+    letter-spacing:14px;
 }
